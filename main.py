@@ -14,7 +14,7 @@ sys.stdout.write('\x1b[1;37m\x1b]2; PS~\x07')
 
 check_storage_permission()
 
-from menu.main_menu import __PS__
+from main_menu import __PS__
 
 __CLEAR__()
 __PS__().__MENU__()
